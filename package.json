@@ -1,0 +1,36 @@
+{
+  "name": "simon-stalenhag",
+  "version": "1.0.0",
+  "description": "fan-made portfolio website for contemporary artist, Simon Stalenhag",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"nodemon server\" \"cd client ; yarn start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toatsted/simon-stalenhag.git"
+  },
+  "keywords": [
+    "artist",
+    "portfolio",
+    "html",
+    "web"
+  ],
+  "author": "Sam Hicks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toatsted/simon-stalenhag/issues"
+  },
+  "homepage": "https://github.com/toatsted/simon-stalenhag#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.2",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.11"
+  }
+}
